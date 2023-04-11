@@ -152,6 +152,16 @@ body {
 	// 	writing-mode: vertical-lr;
 	// }
 }
+.avatars-container {
+	// position: relative;
+	#avat {
+		position: absolute;
+		width: 48px;
+		height: 48px;
+		border-radius: 40px;
+		// margin: 50px;
+	}
+}
 
 // Gallery new
 
@@ -220,7 +230,7 @@ body {
 
 /* Стили для кубика */
 .rightside {
-	// position: relative;
+	position: relative;
 
 	.dices {
 		position: absolute;
@@ -241,7 +251,6 @@ body {
 
 	.dices__column {
 		display: flex;
-		// gap: 40px;
 		align-items: center;
 	}
 }

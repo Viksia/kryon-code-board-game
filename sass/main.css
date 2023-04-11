@@ -109,6 +109,13 @@ body {
   border-radius: 25px;
 }
 
+.avatars-container #avat {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border-radius: 40px;
+}
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -172,6 +179,9 @@ body {
 }
 
 /* Стили для кубика */
+.rightside {
+  position: relative;
+}
 .rightside .dices {
   position: absolute;
   top: 42%;
