@@ -155,35 +155,32 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin-left: 10px;
+	margin-left: 20px;
 
 	.player {
 		border-radius: 40px;
+		position: absolute;
+		cursor: pointer;
 	}
 
-	// .player-1 {
-	// 	background-color: red;
-	// }
-
-	// .player-2 {
-	// 	background-color: blue;
-	// }
-
-	// .player-3 {
-	// 	background-color: green;
-	// }
-
-	// .player-4 {
-	// 	background-color: yellow;
-	// }
-
-	// .player-5 {
-	// 	background-color: orange;
-	// }
-
-	// .player-6 {
-	// 	background-color: purple;
-	// }
+	#avat1 {
+		top: 120;
+	}
+	#avat2 {
+		top: 170px;
+	}
+	#avat3 {
+		top: 220px;
+	}
+	#avat4 {
+		top: 270px;
+	}
+	#avat5 {
+		top: 320px;
+	}
+	#avat6 {
+		top: 370px;
+	}
 
 	.avatar {
 		width: 48px;
@@ -277,6 +274,7 @@ body {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		gap: 5px;
 	}
 
 	.dice {

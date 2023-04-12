@@ -116,10 +116,30 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .players .player {
   border-radius: 40px;
+  position: absolute;
+  cursor: pointer;
+}
+.players #avat1 {
+  top: 120;
+}
+.players #avat2 {
+  top: 170px;
+}
+.players #avat3 {
+  top: 220px;
+}
+.players #avat4 {
+  top: 270px;
+}
+.players #avat5 {
+  top: 320px;
+}
+.players #avat6 {
+  top: 370px;
 }
 .players .avatar {
   width: 48px;
@@ -200,6 +220,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 5px;
 }
 .aside .dice {
   width: 88px;
